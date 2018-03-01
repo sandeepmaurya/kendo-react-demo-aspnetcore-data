@@ -39,7 +39,7 @@ namespace reactSpa.Controllers
         public JsonResult GetCategories()
         {
             List<Category> categories = new List<Category>();
-            for (short i = 1; i <= 500; i++)
+            for (short i = 1; i <= 50; i++)
             {
                 categories.Add(new Category
                 {

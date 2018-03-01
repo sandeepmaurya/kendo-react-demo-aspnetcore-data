@@ -45,10 +45,6 @@ class DetailComponent extends GridDetailRow {
                 <Column field="unitPrice" title="Unit Price" format="{0:c}" />
                 <Column cell={this.DropDownCell} />
                 <Column cell={this.DropDownCell} />
-                <Column cell={this.DropDownCell} />
-                <Column cell={this.DropDownCell} />
-                <Column cell={this.DropDownCell} />
-                <Column cell={this.DropDownCell} />
             </Grid>
         );
     }
@@ -105,9 +101,6 @@ class GridExample2 extends React.Component {
                     <Column field="categoryName" title="Category Name" />
                     <Column field="description" />
                     <Column cell={this.CommandCell}/>
-                    <Column cell={this.DropDownCell} />
-                    <Column cell={this.DropDownCell} />
-                    <Column cell={this.DropDownCell} />
                     <Column cell={this.DropDownCell} />
                     <Column cell={this.DropDownCell} />
                 </Grid>
